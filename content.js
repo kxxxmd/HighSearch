@@ -1,8 +1,6 @@
 document.addEventListener("mouseup", (event) => {
     let selectedText = window.getSelection().toString().trim();
 
-    console.log("Selected text: " + selectedText);
-    //console.log(window.getSelection().position.x);
     setTimeout(() => {
         let existingButton = document.getElementById("highSearch");
         if (existingButton) {
@@ -22,7 +20,7 @@ document.addEventListener("mouseup", (event) => {
             // Criação do botão
             let button = document.createElement("button");
             button.id = "highSearch";
-            button.innerText = "Pesquisar";
+            button.innerText = "Search";
             button.style.position = "absolute";
             button.style.top = `${posY}px`;
             //button.style.left = `${posX}px`;

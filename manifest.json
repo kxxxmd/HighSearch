@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Pesquisa Rápida",
+  "name": "HighSearch",
   "version": "1.0",
-  "description": "Selecione um texto e pesquise no Google com um botão.",
+  "description": "Highlight text in firefox and search quickly.",
   "permissions": [
     "tabs",
     "activeTab",
